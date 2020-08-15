@@ -35,8 +35,8 @@ logger = logging.getLogger(__name__)
 STR_CONFIG_ITEMS = ["config_dir", "logs_dir", "work_dir", "user_agent",
                     "server", "account", "authenticator", "installer",
                     "renew_hook", "pre_hook", "post_hook", "http01_address",
-                    "preferred_chain"]
-INT_CONFIG_ITEMS = ["rsa_key_size", "http01_port"]
+                    "preferred_chain", "key_type"]
+INT_CONFIG_ITEMS = ["rsa_key_size", "http01_port", "ec_key_size"]
 BOOL_CONFIG_ITEMS = ["must_staple", "allow_subset_of_names", "reuse_key",
                      "autorenew"]
 
